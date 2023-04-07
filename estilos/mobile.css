@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 250px) and (max-width:570px){
+    body, html, main{
+        overflow-x: hidden;
+        overflow-y: none;
+    }
+    #banner{
+        height: 300px;
+    }
+    .text-banner{
+        font-size: .6em;
+    }
+    .text-title{
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        font-size: 2em;
+    }
+    #produto{
+        display: block;
+    }
+    #produto img{
+        display: block;
+        margin-left: 30px;
+        height: 300px;
+    }
+    #rodape{
+        flex-direction: column;
+        margin: auto;
+    }
+    .container{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .hours,
+    .addres,
+    .redes{
+        margin: 10px;
+    }
+    
+}
+
+
+@media screen and (min-width: 570px) and (max-width:768px){
+    body, html, main{
+        overflow-x: hidden;
+        overflow-y: none;
+    }
+    #banner{
+        height: 350px;
+    }
+    #produto img{
+        display: block;
+        margin-left: 30px;
+        height: 300px;
+    }
+    .text-title{
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        font-size: 2.4em;
+    }
+    #rodape{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .hours,
+    .addres,
+    .redes{
+        margin: 10px;
+    }
+    .hours h3, p{
+        font-size: 1.3em;
+     }
+     .addres h3, p{
+        font-size: 1.3em;
+    }
+    .redes h3{
+        font-size: 1.3em
+    }
+}

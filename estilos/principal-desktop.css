@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body, html, main{
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+#head{
+    background-color: #213140;
+    width: 100vw;
+    height: 80px;
+}
+.ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 80px;
+}
+#banner{
+   width: 100vw;
+    background: url('../imagens/banner2.jpg') no-repeat top center;
+    height: 450px;
+    background-size: cover;
+}
+.text-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-banner p{
+    color: white;
+    font-size: 2.5em;
+    margin-top: 80px;
+  
+}
+.text-shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+.text-shop p{
+    border: 2px solid white;
+    padding: 20px;
+    color: white;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.text-shop a{
+    text-decoration: none;
+}
+.text-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.705);
+}
+#produto{
+    display: flex;
+}
+#produto img{
+   display: flex;
+   margin-top: 30px;
+   margin-left: 105px;
+   width: 200px;
+   border-radius: 0px 90px 0px 90px;
+   margin-bottom: 20px;
+}
+.text-produto{
+    display: block;
+    margin: 30px;
+    max-width: 700px;
+}
+.text-produto h1{
+    font-size: 2.3em;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.text-produto p{
+    line-height: 25px;
+}
+
+.text-produto a{
+    display: flex;
+    text-decoration: none;
+}
+.text-produto a > p{
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+#rodape{
+    background-color: rgba(0, 0, 0, 0.883);
+    height: auto;
+}
+.container{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.hours{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.hours h3, p{
+   margin-bottom: 10px;
+}
+.addres{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.addres h3, p{
+    margin-bottom: 10px;
+}
+.redes{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.redes img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.copy{
+    display: block;
+    padding: 12px;
+    background-color:#000000;
+
+
+}
+.copy p{
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
